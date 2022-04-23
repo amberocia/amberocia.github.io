@@ -1,0 +1,99 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#introdiv {
+  text-align: center;
+  background: rgb(255, 255, 255);
+  height: fit-content;
+  margin-top: 50px;
+  margin-left: 100px;
+  margin-right: 100px;
+  padding: 5px;
+  border: 1px solid black;
+  overflow: hidden;
+}
+#headdiv {
+  background-color: rgba(23, 23, 28, 0.693);
+  padding: 10px;
+  width: 500px;
+  height: 650px;
+  float: left; /* add this */
+  border: none;
+}
+
+p {
+  margin-top: 150px;
+  font-size: 20px;
+}
+#figdiv {
+  border: none;
+  overflow: hidden;
+}
+
+figure {
+  background-color: rgba(65, 61, 61);
+  padding: 5px;
+  width: fit-content;
+  height: fit-content;
+  margin-right: 50px;
+}
+img {
+  height: 600px;
+  width: 400px;
+}
+
+#contents {
+  background: rgba(23, 24, 20, 0.7);
+  height: 100px;
+  width: 100%;
+}
+
+#contents ul {
+  padding: 30px;
+  text-align: center;
+  margin-left: 30px;
+  margin-top: 40px;
+}
+
+#contents ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+#contents ul li a {
+  font-size: 20px;
+  color: floralwhite;
+  text-decoration: none;
+}
+
+/* Basic */
+
+@-ms-viewport {
+  width: device-width;
+}
+
+body {
+  -ms-overflow-style: scrollbar;
+}
+
+@media screen and (max-width: 480px) {
+  html,
+  body {
+    min-width: 320px;
+  }
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: #1d1f21c7;
+}
