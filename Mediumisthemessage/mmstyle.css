@@ -1,11 +1,11 @@
 /* Intro Section*/
-.intro {
+.post {
   background: #000000;
   background: linear-gradient(to right, #090909, #2d193a);
   padding: 200px 0;
 }
 
-.intro__container {
+.post__container {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -17,13 +17,9 @@
   padding: 30px;
 }
 
-.intro__heading {
+.post__heading {
   font-size: 100px;
   margin-bottom: 20px;
-  color: #fff;
-}
-
-.intro__heading span {
   background: #12c2e9; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to right,
@@ -42,9 +38,10 @@
   -moz-background-clip: text;
   -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
+  color: #fff;
 }
 
-.intro__quote {
+.post__quote {
   margin-top: 20px;
   font-size: 40px;
   background: #12c2e9; /* fallback for old browsers */
@@ -72,11 +69,11 @@
 }
 
 @media screen and (max-width: 760px) {
-  .intro__heading {
+  .post__heading {
     font-size: 50px;
   }
 
-  .intro__quote {
+  .post__quote {
     font-size: 30px;
   }
 }
