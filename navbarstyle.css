@@ -65,6 +65,17 @@
 }
 
 .navbar__links {
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 125px;
+  text-decoration: none;
+  height: 100%;
+  transition: all 0.3s ease;
+}
+
+.navbar__links:hover {
   background: #fc354c; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to right,
@@ -76,18 +87,11 @@
     #0abfbc,
     #fc354c
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+  background-size: 100%;
   -webkit-background-clip: text;
   -moz-background-clip: text;
   -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 125px;
-  text-decoration: none;
-  height: 100%;
+  color: #9518fc;
   transition: all 0.3s ease;
 }
-
-
