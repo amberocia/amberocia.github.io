@@ -8,6 +8,7 @@
 
 .navbar {
   background: #000000;
+  background: linear-gradient(to left, #539aa9, #2d193a);
   height: 100px;
   display: flex;
   justify-content: center;
