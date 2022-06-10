@@ -6,6 +6,39 @@
   scroll-behavior: smooth;
 }
 
+.navbar {
+  background: #000000;
+  background: linear-gradient(to left, #214b53, #2d193a);
+}
+
+#navbar__logo {
+  background: #fc354c; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #0abfbc,
+    #fc354c
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #0abfbc,
+    #fc354c
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.navbar__links:hover {
+  background: #fc354c; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #0abfbc,
+    #fc354c
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #0abfbc,
+    #fc354c
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
 /* Blogs Section*/
 .blogs {
   background: #000000;
@@ -45,7 +78,18 @@
   flex-direction: column;
   justify-content: center;
   color: #fff;
-  background-image: linear-gradient(to right, #00dbde 0%, #fc00ff 100%);
+  background: #c94b4b; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #4b134f,
+    #c94b4b
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #4b134f,
+    #c94b4b
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
   transition: 0.3s ease-in;
 }
 
@@ -64,20 +108,85 @@
 }
 
 .blogs__card:nth-child(3) {
-  background: #fc466b; /* fallback for old browsers */
+  background: #c31432; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to right,
-    #3f5efb,
-    #fc466b
+    #501b77,
+    #c31432
   ); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(
     to right,
-    #3f5efb,
-    #fc466b
+    #501b77,
+    #c31432
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-blogs__card h2 {
+.blogs__card:nth-child(4) {
+  background-image: linear-gradient(
+    40deg,
+    hsl(274deg 74% 30%) 0%,
+    hsl(267deg 70% 30%) 7%,
+    hsl(260deg 68% 29%) 14%,
+    hsl(251deg 66% 28%) 22%,
+    hsl(240deg 65% 27%) 29%,
+    hsl(235deg 62% 31%) 37%,
+    hsl(233deg 52% 40%) 44%,
+    hsl(230deg 47% 49%) 52%,
+    hsl(228deg 61% 58%) 60%,
+    hsl(239deg 63% 66%) 68%,
+    hsl(281deg 44% 55%) 76%,
+    hsl(316deg 51% 47%) 84%,
+    hsl(332deg 74% 42%) 92%,
+    hsl(344deg 87% 36%) 100%
+  );
+}
+
+.blogs__card:nth-child(5) {
+  background-image: linear-gradient(
+    110deg,
+    hsl(225deg 62% 28%) 0%,
+    hsl(271deg 41% 30%) 6%,
+    hsl(310deg 41% 30%) 11%,
+    hsl(332deg 45% 34%) 17%,
+    hsl(349deg 40% 38%) 23%,
+    hsl(7deg 38% 40%) 30%,
+    hsl(21deg 41% 39%) 36%,
+    hsl(33deg 39% 38%) 43%,
+    hsl(34deg 42% 39%) 49%,
+    hsl(25deg 51% 41%) 57%,
+    hsl(13deg 52% 45%) 64%,
+    hsl(356deg 51% 49%) 71%,
+    hsl(339deg 69% 46%) 79%,
+    hsl(323deg 98% 40%) 86%,
+    hsl(309deg 93% 38%) 93%,
+    hsl(283deg 64% 48%) 100%
+  );
+}
+
+.blogs__card:nth-child(6) {
+  background-image: linear-gradient(
+    110deg,
+    hsl(175deg 67% 32%) 0%,
+    hsl(181deg 100% 26%) 6%,
+    hsl(186deg 100% 26%) 11%,
+    hsl(190deg 100% 26%) 17%,
+    hsl(194deg 100% 25%) 23%,
+    hsl(198deg 100% 25%) 30%,
+    hsl(202deg 100% 23%) 36%,
+    hsl(205deg 100% 22%) 43%,
+    hsl(218deg 56% 28%) 49%,
+    hsl(245deg 33% 36%) 57%,
+    hsl(276deg 37% 35%) 64%,
+    hsl(305deg 42% 35%) 71%,
+    hsl(323deg 56% 38%) 79%,
+    hsl(335deg 65% 41%) 86%,
+    hsl(346deg 66% 45%) 93%,
+    hsl(0deg 58% 49%) 100%
+  );
+}
+
+.blogs__card h2 {
+  font-size: 2rem;
   text-align: center;
 }
 
@@ -93,7 +202,7 @@ blogs__card h2 {
   margin-top: 16px;
 }
 
-.blogs__btn a{
+.blogs__btn a {
   position: relative;
   z-index: 2;
   color: #fff;
@@ -109,7 +218,6 @@ blogs__card h2 {
   background: #131313;
   font-size: 1rem;
 }
-
 
 .blogs__card button:hover {
   cursor: pointer;
