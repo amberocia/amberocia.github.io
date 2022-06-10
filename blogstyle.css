@@ -78,17 +78,25 @@
   flex-direction: column;
   justify-content: center;
   color: #fff;
-  background: #c94b4b; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to right,
-    #4b134f,
-    #c94b4b
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to right,
-    #4b134f,
-    #c94b4b
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-image: linear-gradient(
+    40deg,
+    hsl(274deg 74% 33%) 0%,
+    hsl(283deg 75% 31%) 13%,
+    hsl(293deg 77% 29%) 21%,
+    hsl(303deg 81% 28%) 27%,
+    hsl(309deg 82% 29%) 32%,
+    hsl(306deg 72% 30%) 36%,
+    hsl(303deg 65% 31%) 41%,
+    hsl(299deg 60% 32%) 45%,
+    hsl(309deg 60% 35%) 49%,
+    hsl(324deg 64% 41%) 53%,
+    hsl(334deg 67% 46%) 57%,
+    hsl(342deg 69% 50%) 62%,
+    hsl(339deg 69% 47%) 67%,
+    hsl(331deg 68% 40%) 74%,
+    hsl(318deg 67% 32%) 83%,
+    hsl(288deg 68% 26%) 100%
+  );
 
   transition: 0.3s ease-in;
 }
@@ -108,17 +116,23 @@
 }
 
 .blogs__card:nth-child(3) {
-  background: #c31432; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to right,
-    #501b77,
-    #c31432
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to right,
-    #501b77,
-    #c31432
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-image: linear-gradient(
+    40deg,
+    hsl(239deg 65% 34%) 0%,
+    hsl(252deg 62% 33%) 14%,
+    hsl(262deg 60% 32%) 23%,
+    hsl(271deg 59% 31%) 29%,
+    hsl(281deg 57% 30%) 35%,
+    hsl(291deg 55% 28%) 40%,
+    hsl(303deg 54% 28%) 44%,
+    hsl(308deg 56% 28%) 49%,
+    hsl(306deg 58% 27%) 54%,
+    hsl(305deg 61% 26%) 59%,
+    hsl(303deg 64% 25%) 65%,
+    hsl(301deg 68% 24%) 72%,
+    hsl(299deg 75% 23%) 81%,
+    hsl(297deg 87% 21%) 100%
+  );
 }
 
 .blogs__card:nth-child(4) {
