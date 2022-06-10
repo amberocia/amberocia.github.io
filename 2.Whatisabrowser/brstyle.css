@@ -1,4 +1,4 @@
-/* Intro Section*/
+/* Navbar Section*/
 .navbar {
   background: #000000;
   background: linear-gradient(to left, #a44f4f, #2d193a);
@@ -32,6 +32,7 @@
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
+/* Post Section*/
 .post {
   background: rgb(23, 12, 77);
   background: linear-gradient(
@@ -55,7 +56,7 @@
   padding: 50px 50px;
 }
 
-.post__heading--container{
+.post__heading--container {
   background-color: rgba(132, 108, 139, 0.264);
   padding: 30px;
 }
@@ -140,14 +141,11 @@
   font-size: 20px;
 }
 
-
-
 .highlight {
   border-bottom: 4px solid rgb(132, 0, 255);
 }
 
 @media screen and (max-width: 760px) {
-
   .post {
     padding: 3px;
   }
@@ -185,7 +183,7 @@
   .post__quote {
     font-size: 20px;
   }
-  
+
   .post__essay--container {
     padding: 10px 10px;
   }

@@ -1,4 +1,4 @@
-/* Intro Section*/
+/* Navbar Section*/
 .navbar {
   background: #000000;
   background: linear-gradient(to left, #a44f4f, #2d193a);
@@ -32,6 +32,7 @@
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
+/* Post Section*/
 .post {
   background: rgb(23, 12, 77);
   background: linear-gradient(
