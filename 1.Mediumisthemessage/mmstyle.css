@@ -131,6 +131,11 @@
   padding: 40px 30px;
 }
 
+.post__essay--content h2 {
+  margin-top: 20px;
+  font-size: 1.5rem;
+}
+
 .post__essay--content p {
   font-size: 25px;
   padding: 10px 0;
@@ -141,7 +146,6 @@
 }
 
 @media screen and (max-width: 760px) {
-
   .post {
     padding: 3px;
   }
@@ -152,6 +156,9 @@
 
   .post__quote {
     font-size: 20px;
+  }
+  .post__essay--content h2 {
+    font-size: 1.2rem;
   }
 
   .post__essay--content p {
@@ -175,7 +182,7 @@
   .post__quote {
     font-size: 20px;
   }
-  
+
   .post__essay--container {
     padding: 10px 10px;
   }
