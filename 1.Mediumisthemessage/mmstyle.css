@@ -47,12 +47,12 @@
 .post__container {
   display: flex;
   flex-direction: column;
-  justify-content: left;
-  align-items: left;
+  justify-content: center;
+  align-items: center;
   max-width: 1200px;
   margin: 0 auto;
   height: 90%;
-  text-align: left;
+  text-align: center;
   padding: 50px 50px;
 }
 

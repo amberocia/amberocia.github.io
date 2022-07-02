@@ -7,11 +7,11 @@
 }
 
 .navbar {
-  height: 150px;
+  height: 100px;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 1.3rem;
+  font-size: 2rem;
   position: sticky;
   top: 0;
   z-index: 999;
@@ -103,7 +103,6 @@
     z-index: 99;
     height: 60vh;
     font-size: 1.6rem;
-    scroll-behavior: smooth;
   }
 
   #navbar__logo {
@@ -113,7 +112,7 @@
 
   .navbar__toggle .bar {
     width: 25px;
-    height: 5px;
+    height: 3px;
     margin: 5px auto;
     transition: all 0.3s ease;
     background: #fff;
