@@ -4,23 +4,25 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="aboutme.css" />
+    <title>WebsitePractical(Bobbi)</title>
+    <link rel="stylesheet" href="/style.css" />
     <link rel="stylesheet" href="/universal.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
     />
+    <meta name="description" content="This is my first website." />
   </head>
   <body>
     <button id="back-to-top-btn"><i class="fa-solid fa-angles-up"></i></button>
     <!--Navbar section 1-->
     <nav class="navbarlogo">
       <div class="navbarlogo__container">
-        <a href="#home" id="navbar__logo">BOBBI JANSEN</a>
+        <a href="#home" id="navbar__logo">PROFILE</a>
       </div>
     </nav>
 
+    <!--Navbar section-->
     <nav class="navbar">
       <div class="navbar__container">
         <div class="navbar__toggle" id="mobile-menu">
@@ -62,67 +64,5 @@
         </ul>
       </div>
     </nav>
-
-    <!--About Section-->
-    <div class="main" id="about">
-      <div class="main__container">
-        <div class="main__img--container">
-          <div class="main__img--card">
-            <img
-              src="ImageofMe.jpg"
-              alt="This is supposed to be an image of me"
-            />
-          </div>
-
-          <div class="main__img--card">
-            <img
-              src="ImageofMe.jpg"
-              alt="This is supposed to be an image of me"
-            />
-          </div>
-
-          <div class="main__img--card">
-            <img
-              src="ImageofMe.jpg"
-              alt="This is supposed to be an image of me"
-            />
-          </div>
-        </div>
-
-        <div class="main__content">
-          <h1>Hello There...</h1>
-          <h2>My name is <span>Bobbi</span></h2>
-
-          <p>Some stuff about me</p>
-          <p>More stuff about me</p>
-        </div>
-      </div>
-    </div>
-
-    <!--Contact Me-->
-    <div class="contactcontainer">
-      <form onsubmit="sendEmail(); reset(); return false;">
-        <h3>CONTACT ME</h3>
-        <input type="text" id="name" placeholder="Your Name" required />
-        <input
-          type="Email"
-          name=""
-          id="email"
-          placeholder="Email adress"
-          required
-        />
-        <input type="text" id="phone" placeholder="Phone no." required />
-        <textarea
-          name=""
-          id="message"
-          cols="30"
-          rows="10"
-          placeholder="Write a message"
-        ></textarea>
-        <button type="submit">Send</button>
-      </form>
-    </div>
-
-    <script src="/app.js"></script>
   </body>
 </html>
