@@ -1,4 +1,9 @@
 /* Navbar Section*/
+.navbarlogo {
+  background: #000000;
+  background: linear-gradient(to left, #a44f4f, #2d193a);
+}
+
 .navbar {
   background: #000000;
   background: linear-gradient(to left, #a44f4f, #2d193a);
@@ -52,7 +57,7 @@
   max-width: 1200px;
   margin: 0 auto;
   height: 90%;
-  text-align: center;
+  text-align: left;
   padding: 50px 50px;
 }
 

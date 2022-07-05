@@ -6,6 +6,11 @@
   scroll-behavior: smooth;
 }
 
+.navbarlogo {
+  background: #000000;
+  background: linear-gradient(to left, #214b53, #2d193a);
+}
+
 .navbar {
   background: #000000;
   background: linear-gradient(to left, #214b53, #2d193a);

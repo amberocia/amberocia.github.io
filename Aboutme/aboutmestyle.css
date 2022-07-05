@@ -6,6 +6,20 @@
   scroll-behavior: smooth;
 }
 
+.navbarlogo {
+  background: #360033; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #0b8793,
+    #360033
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to left,
+    #17484d,
+    #351133
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
 .navbar {
   background: #360033; /* fallback for old browsers */
   background: -webkit-linear-gradient(
@@ -44,13 +58,12 @@
 .main {
   background: #000000;
   background: linear-gradient(to right, #000000, #241529);
-
   padding: 10rem 0;
 }
 
 .main__container {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
   align-items: center;
   justify-content: center;
   margin: 0 auto;
@@ -179,6 +192,8 @@
   width: 100%;
 }
 .main__img--container {
+  display: flex;
+  justify-content: center;
   text-align: center;
 }
 
@@ -199,7 +214,7 @@
 
   margin: 10px;
   height: 500px;
-  width: 500px;
+  width: 400px;
   border-radius: 4px;
   display: flex;
   flex-direction: column;
@@ -208,7 +223,7 @@
   /*background-image: linear-gradient(to right, #102b2c 0%, #322832 70%);*/
 }
 
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 1285px) {
   .main__container {
     display: grid;
     grid-template-columns: 1fr;
@@ -216,7 +231,7 @@
     justify-content: center;
     width: 100%;
     margin: 0 auto;
-    height: 90%;
+    height: 100%;
   }
 
   .main__img--container {
@@ -225,8 +240,8 @@
   }
 
   .main__img--card {
-    height: 425px;
-    width: 425px;
+    height: 400px;
+    width: 300px;
   }
 
   .main__content {
@@ -249,10 +264,29 @@
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 980px) {
+  .main__img--container {
+    display: grid;
+    justify-content: center;
+  }
+
   .main__img--card {
-    width: 250 px;
-    height: 250px;
+    height: 500px;
+    width: 400px;
+  }
+}
+
+@media screen and (max-width: 440px) {
+  .main__img--card {
+    height: 400px;
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .main__img--card {
+    height: 300px;
+    width: 200px;
   }
   .main__content h1 {
     font-size: 2rem;
@@ -268,6 +302,13 @@
 
   .main__btn {
     padding: 12px 36px;
-    margin: 2.5rem 0;
+    margin: 1rem 0;
+  }
+}
+
+@media screen and (max-width: 230px) {
+  .main__img--card {
+    height: 200px;
+    width: 100px;
   }
 }

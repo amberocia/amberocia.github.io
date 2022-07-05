@@ -1,3 +1,8 @@
+.navbarlogo {
+  background: #000000;
+  background: linear-gradient(to left, #214b53, #2d193a);
+}
+
 .navbar {
   background: #000000;
   background: linear-gradient(to left, #214b53, #2d193a);
@@ -118,7 +123,6 @@
 .main {
   background: #000000;
   background: linear-gradient(to right, #000000, #241529);
-
   padding: 10rem 0;
 }
 
