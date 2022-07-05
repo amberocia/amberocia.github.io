@@ -191,6 +191,7 @@
 .main__btn:hover:after {
   width: 100%;
 }
+
 .main__img--container {
   display: flex;
   justify-content: center;
@@ -312,3 +313,5 @@
     width: 100px;
   }
 }
+
+

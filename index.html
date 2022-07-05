@@ -96,6 +96,30 @@
       </div>
     </div>
 
+    <!--Contact Me-->
+    <div class="contactcontainer">
+      <form onsubmit="sendEmail(); reset(); return false;">
+        <h3>CONTACT ME</h3>
+        <input type="text" id="name" placeholder="Your Name" required />
+        <input
+          type="Email"
+          name=""
+          id="email"
+          placeholder="Email adress"
+          required
+        />
+        <input type="text" id="phone" placeholder="Phone no." required />
+        <textarea
+          name=""
+          id="message"
+          cols="30"
+          rows="10"
+          placeholder="Write a message"
+        ></textarea>
+        <button type="submit">Send</button>
+      </form>
+    </div>
+
     <script src="app.js"></script>
   </body>
 </html>
