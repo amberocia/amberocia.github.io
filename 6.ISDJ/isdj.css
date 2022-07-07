@@ -1,4 +1,11 @@
+
+
 /* Navbar Section*/
+.navbarlogo {
+  background: #000000;
+  background: linear-gradient(to left, #a44f4f, #2d193a);
+}
+
 .navbar {
   background: #000000;
   background: linear-gradient(to left, #a44f4f, #2d193a);
@@ -52,7 +59,7 @@
   max-width: 1200px;
   margin: 0 auto;
   height: 90%;
-  text-align: center;
+  text-align: block;
   padding: 50px 50px;
 }
 
@@ -127,9 +134,8 @@
 }
 
 .post__essay--content {
-  font-size: 20px;
   background-color: rgba(255, 255, 255, 0.367);
-  padding: 30px 30px;
+  padding: 40px 30px;
 }
 
 .post__essay--content h2 {
@@ -138,7 +144,8 @@
 }
 
 .post__essay--content p {
-  font-size: 20px;
+  font-size: 25px;
+  padding: 10px 0;
 }
 
 .highlight {
@@ -157,7 +164,6 @@
   .post__quote {
     font-size: 20px;
   }
-
   .post__essay--content h2 {
     font-size: 1.2rem;
   }
