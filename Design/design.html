@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="/Design/design.css" />
+    <link rel="stylesheet" href="/universal.css" />
+    <title>Website for Interactive Media</title>
+  </head>
+  <body>
+    <button id="back-to-top-btn"><i class="fa-solid fa-angles-up"></i></button>
+
+    <div class="container">
+      <!--Sidebar-->
+      <aside>
+        <div class="top">
+          <div class="logo">
+            <h2>Web<span class="lgcolor">site</span></h2>
+          </div>
+          <div class="close" id="close_btn">
+            <span class="material-icons-sharp"> close </span>
+          </div>
+        </div>
+
+        <div class="sidebar">
+          <a href="/index.html">
+            <span class="material-icons-sharp"> home </span>
+            <h3>Home</h3>
+          </a>
+          <a href="#">
+            <span class="material-icons-sharp"> article </span>
+            <h3>Blogs</h3>
+          </a>
+          <a href="/Design/design.html" class="active">
+            <span class="material-icons-sharp"> brush </span>
+            <h3>Design</h3>
+          </a>
+          <a href="#">
+            <span class="material-icons-sharp"> brush </span>
+            <h3>Data Visualisations</h3>
+          </a>
+          <a href="#">
+            <span class="material-icons-sharp"> brush </span>
+            <h3>Data Art</h3>
+          </a>
+        </div>
+      </aside>
+
+      <!--Main-->
+      <main>
+        <h1>Design</h1>
+
+        <div class="date">
+          <input type="date" />
+        </div>
+
+        <!--Design section-->
+        <div class="wireframes" id="wireframes">
+          <h1>WireFrame Design 1</h1>
+          <div class="wire__wrapper">
+            <img
+              class="wire__card"
+              src="/Images/Inspire.png"
+              alt="This is supposed to be an image of wireframe"
+            />
+          </div>
+        </div>
+      </main>
+
+      <!--Sidebar-->
+      <aside></aside>
+    </div>
+
+    <!--footer-->
+    <div class="footer__container">
+      <div class="footer__links">
+        <div class="footer__link--wrapper">
+          <div class="footer__link--items">
+            <a href=""><h6>Blogs</h6></a>
+            <a href="">Overview of Data Visualisation</a>
+            <a href="">Analysing my UI and UX </a>
+          </div>
+        </div>
+
+        <div class="footer__link--wrapper">
+          <div class="footer__link--items">
+            <a href="index.html"><h6>Home</h6></a>
+            <a href=""><h6>Design</h6></a>
+            <a href=""><h6>Design-Art</h6></a>
+            <a href=""><h6>Design-Visualisations</h6></a>
+          </div>
+        </div>
+      </div>
+      <section class="social__media">
+        <div class="social__media--wrap">
+          <div class="footer__logo">
+            <a href="/" id="footer__logo">BOBBI AJ</a>
+          </div>
+
+          <div class="social__icons">
+            <a href="/" class="social__icon--link" target="_blank"
+              ><i class="fab fa-facebook"></i
+            ></a>
+
+            <a href="/" class="social__icon--link"
+              ><i class="fab fa-instagram"></i
+            ></a>
+
+            <a href="/" class="social__icon--link"
+              ><i class="fab fa-twitter"></i
+            ></a>
+
+            <a
+              href="https://github.com/amberocia/IM_Assignment1"
+              class="social__icon--link"
+              ><i class="fab fa-github"></i
+            ></a>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <script src="/app.js"></script>
+  </body>
+</html>
