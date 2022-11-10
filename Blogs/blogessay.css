@@ -1,0 +1,144 @@
+/* Post Section*/
+.post {
+  background: rgb(23, 12, 77);
+  background: linear-gradient(
+    -25deg,
+    rgba(23, 12, 77, 1) 0%,
+    rgba(118, 48, 139, 1) 57%,
+    rgba(17, 48, 62, 1) 100%
+  );
+  padding: 80px;
+}
+
+.post__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  height: 90%;
+  text-align: block;
+  padding: 50px 50px;
+}
+
+.post__heading--container {
+  background-color: rgba(132, 108, 139, 0.264);
+  padding: 30px;
+}
+
+.post__heading {
+  font-size: 100px;
+  margin-bottom: 20px;
+  background: #12c2e9; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #f64f59,
+    #c471ed,
+    #12c2e9
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #f64f59,
+    #c471ed,
+    #12c2e9
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  color: #fff;
+}
+
+.post__quote {
+  margin-top: 20px;
+  font-size: 40px;
+  background: #12c2e9; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #f64f59,
+    #c471ed,
+    #12c2e9
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #f64f59,
+    #c471ed,
+    #12c2e9
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+
+.post__essay--container {
+  margin-top: 30px;
+  padding: 20px 20px;
+  background: #8daab062; /* fallback for old browsers */
+
+}
+
+.post__essay--content {
+  background-color: rgba(255, 255, 255, 0.367);
+  padding: 40px 30px;
+}
+
+.post__essay--content h2 {
+  margin-top: 20px;
+  font-size: 1.5rem;
+}
+
+.post__essay--content p {
+  font-size: 25px;
+  padding: 10px 0;
+}
+
+.highlight {
+  border-bottom: 4px solid rgb(132, 0, 255);
+}
+
+@media screen and (max-width: 760px) {
+  .post {
+    padding: 3px;
+  }
+
+  .post__heading {
+    font-size: 50px;
+  }
+
+  .post__quote {
+    font-size: 20px;
+  }
+  .post__essay--content h2 {
+    font-size: 1.2rem;
+  }
+
+  .post__essay--content p {
+    font-size: 15px;
+    padding: 10px 0;
+  }
+
+  .post__essay--content {
+    padding: 40px 0;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .post__container {
+    padding: 100px 10px;
+  }
+  .post__heading {
+    font-size: 35px;
+  }
+
+  .post__quote {
+    font-size: 20px;
+  }
+
+  .post__essay--container {
+    padding: 10px 10px;
+  }
+}
